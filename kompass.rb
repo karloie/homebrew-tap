@@ -5,12 +5,12 @@
 class Kompass < Formula
   desc "Kubernetes resource relationship visualizer"
   homepage "https://github.com/karloie/kompass"
-  version "0.0.6"
+  version "0.0.7"
   license "MIT"
 
   on_macos do
-    url "https://github.com/karloie/kompass/releases/download/v0.0.6/kompass_0.0.6_darwin_all.tar.gz"
-    sha256 "9071b865b4bb4ff1015d98762d94344dadbb56d456fc82f621f5f3e85f6265e4"
+    url "https://github.com/karloie/kompass/releases/download/v0.0.7/kompass_0.0.7_darwin_all.tar.gz"
+    sha256 "485459aef5e4a061d312c861d8f7f01b45d4d9c8435ffca2bf0813466a304cad"
 
     define_method(:install) do
       bin.install "kompass"
@@ -19,15 +19,15 @@ class Kompass < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/karloie/kompass/releases/download/v0.0.6/kompass_0.0.6_linux_amd64.tar.gz"
-      sha256 "f8706a7a09a70553db556051a0772ccbc339ebcb63918962d8aaabcecd531584"
+      url "https://github.com/karloie/kompass/releases/download/v0.0.7/kompass_0.0.7_linux_amd64.tar.gz"
+      sha256 "92f2a10aa28032967b216809359e28f33eaf8a47adc0f058686c056e2d58a01b"
       define_method(:install) do
         bin.install "kompass"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/karloie/kompass/releases/download/v0.0.6/kompass_0.0.6_linux_arm64.tar.gz"
-      sha256 "abc225ecd13676e63b9c95d2611daaf76436df80fdca9d35a56a6d2112a9fe2d"
+      url "https://github.com/karloie/kompass/releases/download/v0.0.7/kompass_0.0.7_linux_arm64.tar.gz"
+      sha256 "a2b2c592a62a06ddf72b11c23894cb21688d7e76594bea73f2b8f93ff4aaf9b2"
       define_method(:install) do
         bin.install "kompass"
       end
