@@ -48,8 +48,30 @@ brew install karloie/tap/kompass
 [![Docker](https://img.shields.io/badge/Docker%20Hub-karloie%2Fbastille-blue?logo=docker)](https://hub.docker.com/r/karloie/bastille)
 [![GitHub](https://img.shields.io/badge/GitHub-karloie%2Fbastille-black?logo=github)](https://github.com/karloie/bastille)  
 
+A simple SSH jump server
+
 ```bash
 brew install karloie/tap/bastille
+```
+
+### [shipkit](https://github.com/karloie/shipkit)
+
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue)](https://github.com/karloie/shipkit)
+[![Arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-green)](https://github.com/karloie/shipkit)
+
+[![CI](https://github.com/karloie/shipkit/actions/workflows/ci.yml/badge.svg)](https://github.com/karloie/shipkit/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/karloie/shipkit)](https://goreportcard.com/report/github.com/karloie/shipkit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/karloie/shipkit)](go.mod)
+[![Go Reference](https://pkg.go.dev/badge/github.com/karloie/shipkit.svg)](https://pkg.go.dev/github.com/karloie/shipkit)
+[![Homebrew Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkarloie%2Fhomebrew-tap%2Fmain%2FCasks%2Fshipkit.rb&search=version%20%22(%3F%3Cversion%3E%5B%5E%22%5D%2B)%22&replace=%24%3Cversion%3E&label=homebrew)](https://github.com/karloie/homebrew-tap)
+
+[![GitHub](https://img.shields.io/badge/GitHub-karloie%2Fshipkit-black?logo=github)](https://github.com/karloie/shipkit)
+
+GitHub workflow automation and release tooling.
+
+```bash
+brew install karloie/tap/shipkit
 ```
 
 ## Usage
@@ -59,6 +81,7 @@ After installation, the binaries will be available in your PATH:
 ```bash
 kompass --help
 bastille --help
+shipkit --help
 ```
 
 ## Updating
@@ -69,4 +92,5 @@ To update to the latest versions:
 brew update
 brew upgrade kompass
 brew upgrade bastille
+brew upgrade shipkit
 ```
