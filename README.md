@@ -18,7 +18,6 @@ brew tap karloie/tap
 [![Arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-green)](https://github.com/karloie/kompass)
 
 [![CI](https://github.com/karloie/kompass/actions/workflows/ci.yml/badge.svg)](https://github.com/karloie/kompass/actions/workflows/ci.yml)
-[![Release](https://github.com/karloie/kompass/actions/workflows/kompass-release.yml/badge.svg)](https://github.com/karloie/kompass/actions/workflows/kompass-release.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/karloie/kompass)](https://goreportcard.com/report/github.com/karloie/kompass)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Go Version](https://img.shields.io/github/go-mod/go-version/karloie/kompass)](go.mod)
@@ -40,7 +39,6 @@ brew install karloie/tap/kompass
 [![Arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-green)](https://github.com/karloie/bastille)
 
 [![CI](https://github.com/karloie/bastille/actions/workflows/ci.yml/badge.svg)](https://github.com/karloie/bastille/actions/workflows/ci.yml)
-[![Release](https://github.com/karloie/bastille/actions/workflows/bastille-release.yml/badge.svg)](https://github.com/karloie/bastille/actions/workflows/bastille-release.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/karloie/bastille)](https://goreportcard.com/report/github.com/karloie/bastille)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Go Version](https://img.shields.io/github/go-mod/go-version/karloie/bastille)](go.mod)
