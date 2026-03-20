@@ -14,8 +14,8 @@ brew tap karloie/tap
 
 ### [kompass](https://github.com/karloie/kompass)
 
-[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-karloie%2Fkompass-blue?logo=docker)](https://hub.docker.com/r/karloie/kompass)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-karloie%2Fkompass-black?logo=github)](https://github.com/karloie/kompass)  
+[![Docker](https://img.shields.io/badge/Docker%20Hub-karloie%2Fkompass-blue?logo=docker)](https://hub.docker.com/r/karloie/kompass)
+[![GitHub](https://img.shields.io/badge/GitHub-karloie%2Fkompass-black?logo=github)](https://github.com/karloie/kompass)  
 
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue)](https://github.com/karloie/kompass)
 [![Arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-green)](https://github.com/karloie/kompass)
@@ -35,8 +35,8 @@ brew install karloie/tap/kompass
 
 ### [bastille](https://github.com/karloie/bastille)
 
-[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-karloie%2Fbastille-blue?logo=docker)](https://hub.docker.com/r/karloie/bastille)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-karloie%2Fbastille-black?logo=github)](https://github.com/karloie/bastille)  
+[![Docker](https://img.shields.io/badge/Docker%20Hub-karloie%2Fbastille-blue?logo=docker)](https://hub.docker.com/r/karloie/bastille)
+[![GitHub](https://img.shields.io/badge/GitHub-karloie%2Fbastille-black?logo=github)](https://github.com/karloie/bastille)  
 
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-blue)](https://github.com/karloie/bastille)
 [![Arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-green)](https://github.com/karloie/bastille)
