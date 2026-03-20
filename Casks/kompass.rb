@@ -3,7 +3,7 @@ cask "kompass" do
   name "kompass"
   desc "Application built with Go"
   homepage "https://github.com/karloie/kompass"
-  version "0.0.20"
+  version "0.0.21"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "kompass" do
 
   on_macos do
     url "https://github.com/karloie/kompass/releases/download/v#{version}/kompass_#{version}_darwin_all.tar.gz"
-    sha256 "d8d00c28d63d4c348cc7643a5f5efb03e7f6fb7c29ac97deb83aafe9c3dafd76"
+    sha256 "86a1e1ad00b1aac602a1f321b20bc12fe9c95be1ac52667fafcf8f50668aaad8"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/karloie/kompass/releases/download/v#{version}/kompass_#{version}_linux_amd64.tar.gz"
-      sha256 "8b35ae9bd29b7b351e18cf7baccf0f105d59e7a92d2f0ead3cc0f9a6426deb00"
+      sha256 "cf3d1fa27226adb90b50a3d603bf5175735d4de60a247c2783ab1b2823eb4d68"
     end
     on_arm do
       url "https://github.com/karloie/kompass/releases/download/v#{version}/kompass_#{version}_linux_arm64.tar.gz"
-      sha256 "017713b1c48dd4fcfc1330d69982477c3aa601780dedc8ffce110bb8e2ee0fd4"
+      sha256 "2c6aa9a50bfe5fdb10667c5659876c8625b2c13ca57f07b98c77050c37df148b"
     end
   end
 
