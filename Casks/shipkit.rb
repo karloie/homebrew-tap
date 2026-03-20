@@ -3,7 +3,7 @@ cask "shipkit" do
   name "shipkit"
   desc "Application built with Go"
   homepage "https://github.com/karloie/shipkit"
-  version "0.1.1"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "shipkit" do
 
   on_macos do
     url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_darwin_all.tar.gz"
-    sha256 "0401b7fc882dc314c969a8bb5cbcb26ec01a974fabafaf016a3d96ba812b25a6"
+    sha256 "b84c299607b110126ae2cf0258498e7adb7583c7379c0eb9c4012d53ef290d27"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_linux_amd64.tar.gz"
-      sha256 "a74e8d10359b27e68e0646cf8c91fc661f713d6ac338d388522cfe7a6f8912d5"
+      sha256 "d1b23830829814ada76263290690acda8667aa30f11c51bafc8a3f65b3c11970"
     end
     on_arm do
       url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_linux_arm64.tar.gz"
-      sha256 "7ce394572a8b625a65969f80ad91582a3fc28da013c53e4f765182b8ebae5817"
+      sha256 "c7f20cefeb524c57fdc33554ae40f006efd67f535b90a6834b862aa9b0e188b2"
     end
   end
 
