@@ -3,7 +3,7 @@ cask "bastille" do
   name "bastille"
   desc "Application built with Go"
   homepage "https://github.com/karloie/bastille"
-  version "0.0.7"
+  version "0.0.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "bastille" do
 
   on_macos do
     url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_#{version}_darwin_all.tar.gz"
-    sha256 "3ae1a9920defc21735c088ff4b81cdfd498b35d0592424a9b5a36ad687f4f578"
+    sha256 "68199d74908a7e46ba64c4fb00278057fc448fa7700de3b5abbb844fc5ee65d6"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_#{version}_linux_amd64.tar.gz"
-      sha256 "fe1e110ea1f012732b1f5c46db072eb90e70f803035e1d3cec27baaa4c2e53ff"
+      sha256 "62799bbd980ee58d43ea3f98aa42a24adff7d9a849e02e3eb9b08ecd3a0943ad"
     end
     on_arm do
       url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_#{version}_linux_arm64.tar.gz"
-      sha256 "1d886ba1be3fa6eef5327416690c095e9e067841f5afa0b8b106696d900b00d2"
+      sha256 "ce4d768548d046b8d267eda41d0244ddd286941ec0a46ade2b76e3270815b16c"
     end
   end
 
