@@ -13,17 +13,17 @@ cask "kompass" do
 
   on_macos do
     url "https://github.com/karloie/kompass/releases/download/v#{version}/kompass_#{version}_darwin_all.tar.gz"
-    sha256 "4d4c58a5955dd761b2cd8419eeb173573fa12fc186fd2b43f1d016140675d915"
+    sha256 "89631123036d8f67a651c7274d90bc17b3d72b4ef09387e4a177bd658241fc13"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/karloie/kompass/releases/download/v#{version}/kompass_#{version}_linux_amd64.tar.gz"
-      sha256 "8d83607069d8c278b5cc675bf5fb4f04d7dac8c7f3450ffaad7d1600612ddea8"
+      sha256 "b191e777c6cb7ac41621ba3d997180ecd56f02cb64777b65f762d760315b55cf"
     end
     on_arm do
       url "https://github.com/karloie/kompass/releases/download/v#{version}/kompass_#{version}_linux_arm64.tar.gz"
-      sha256 "874e543d545ea9e988f9973c4f3d865b83ce7d84b8025d8adf5613c4da50746a"
+      sha256 "fa252cbc9a8f083f3086712ea0170cbc58cccc1d7266fe866cecf942f0a27d81"
     end
   end
 
