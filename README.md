@@ -69,7 +69,7 @@ brew install karloie/tap/bastille
 
 [![GitHub](https://img.shields.io/badge/GitHub-karloie%2Fshipkit-black?logo=github)](https://github.com/karloie/shipkit)
 
-GitHub workflow automation and release tooling.
+Release automation toolkit - handles versioning, GoReleaser config generation, Docker Hub README updates, and GitHub workflows.
 
 ```bash
 brew install karloie/tap/shipkit
