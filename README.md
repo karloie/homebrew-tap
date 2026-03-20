@@ -20,7 +20,7 @@ brew tap karloie/tap
 Kubernetes cluster visualization and exploration tool.
 
 ```bash
-brew install --cask karloie/tap/kompass
+brew install karloie/tap/kompass
 ```
 
 ### [bastille](https://github.com/karloie/bastille)
@@ -29,7 +29,7 @@ brew install --cask karloie/tap/kompass
 [![License](https://img.shields.io/github/license/karloie/bastille)](https://github.com/karloie/bastille/blob/main/LICENSE)
 
 ```bash
-brew install --cask karloie/tap/bastille
+brew install karloie/tap/bastille
 ```
 
 ## Usage
@@ -47,6 +47,6 @@ To update to the latest versions:
 
 ```bash
 brew update
-brew upgrade --cask kompass
-brew upgrade --cask bastille
+brew upgrade kompass
+brew upgrade bastille
 ```
