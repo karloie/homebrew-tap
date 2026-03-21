@@ -13,17 +13,17 @@ cask "shipkit" do
 
   on_macos do
     url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_darwin_all.tar.gz"
-    sha256 "c3d7a29d14f50daf9802d270f952a8fe28927b66135e81d5eb7ebe34fe827c2b"
+    sha256 "482e5ba04f785adad79bda8e7e4e7494a100571216d05ade63bc44a5b513d33e"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_linux_amd64.tar.gz"
-      sha256 "e6e0ccd44db14603d4ac6c619998657b79374ad6313fc9c797de3fa4ddcd8105"
+      sha256 "1a5689e068a4d972f852dac1cb747ba99dc0aec7bffdd936bb55980a816a1a5a"
     end
     on_arm do
       url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_linux_arm64.tar.gz"
-      sha256 "03503e050c6806422498113d38792637edffe8ba90bf03dbd494901a4a056a2f"
+      sha256 "8a4ff43d373e124abda735ff7e344553a8a52598957dc33386ec8bb0fa652064"
     end
   end
 
