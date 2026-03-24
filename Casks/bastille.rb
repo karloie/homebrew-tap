@@ -3,27 +3,35 @@ cask "bastille" do
   name "bastille"
   desc "Application built with Go"
   homepage "https://github.com/karloie/bastille"
-  version "0.0.11"
+  version "0.0.23"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
-  binary "bastille"
-
   on_macos do
-    url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_#{version}_darwin_all.tar.gz"
-    sha256 "4ba94615f6e3676dd515f3b49c015be164189107110c3bb576195caf935a05df"
+    on_intel do
+      url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_darwin_amd64"
+      sha256 "3be46ceb107f73a92663e34c9727099a978e537f446c302d69b64cfc8bb96e3f"
+      binary "bastille_darwin_amd64", target: "bastille"
+    end
+    on_arm do
+      url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_darwin_arm64"
+      sha256 "cc37217a2b5a2881c8b4b211ef3ca584a21432b08c4ebc0a5aab3e23157ba628"
+      binary "bastille_darwin_arm64", target: "bastille"
+    end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_#{version}_linux_amd64.tar.gz"
-      sha256 "41abc6a87d557e60d9af98113e3b3e8d39556016dca512a870248d89d4a5fed5"
+      url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_linux_amd64"
+      sha256 "1f4688d646a6ea9f03dbe94ed16ccc1968ca3f06bd2e936259d898d7ed9d5f9d"
+      binary "bastille_linux_amd64", target: "bastille"
     end
     on_arm do
-      url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_#{version}_linux_arm64.tar.gz"
-      sha256 "5aba4cf7135bfa31e0a76fbd8efae778ff9b859184faa97cefaad37ca89f9150"
+      url "https://github.com/karloie/bastille/releases/download/v#{version}/bastille_linux_arm64"
+      sha256 "e18c1872ac421cd00e6a906519ff9a6acc433808d526848dd1885b1eb72638e6"
+      binary "bastille_linux_arm64", target: "bastille"
     end
   end
 
