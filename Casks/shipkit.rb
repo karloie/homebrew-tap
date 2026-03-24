@@ -3,7 +3,7 @@ cask "shipkit" do
   name "shipkit"
   desc "Make-first release automation tool"
   homepage "https://github.com/karloie/shipkit"
-  version "0.0.69"
+  version "0.0.70"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "shipkit" do
 
   on_macos do
     url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_darwin_all.tar.gz"
-    sha256 "ca52a70db6d4f4c82a7bfef9c107b6c470666a7cc02709cd4c6842c59721c1fe"
+    sha256 "0347f247b4b59a175a9406b6c3794978477010432e69224e796ada3bb838e28e"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_linux_amd64.tar.gz"
-      sha256 "c7dcc751baad50dba5fb8202c461c51503041991e9401856d719a4c63d5766a6"
+      sha256 "ca77d8be8b36a97a23d57c94085eb27721af23530f0807ce6e8b32d6a4bc4bf8"
     end
     on_arm do
       url "https://github.com/karloie/shipkit/releases/download/v#{version}/shipkit_#{version}_linux_arm64.tar.gz"
-      sha256 "a14b5076ced59e711553ce52c9c5259888d3e38f7e6257425f5466841a02ed34"
+      sha256 "76d8e22b66ca96468894a621fd99f8c6292ee0d3d9e88dac154ce47b228a2bd5"
     end
   end
 
